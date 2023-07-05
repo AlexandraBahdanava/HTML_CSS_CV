@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+}
+
+header{
+	width: 100%;	
+	height: 200px;
+}
+
+.name{
+	background-color: #8d4b55;
+	color: white;
+	margin: 0;
+	height: 80%;
+	text-align: center;
+}
+
+h1{
+	margin: 0;
+	padding-left: 50%;
+	padding-top: 3%;
+	font-size: 3rem;
+}
+
+.image{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 2%;
+	border-radius: 50%;
+	width: 15%;
+}
+img{
+
+}
