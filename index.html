@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap" rel="stylesheet">
 	<title> CurriculumVitae </title>
 </head>
-<body>
+	<body>
 		<header>
 				<img class="image" src="img/avatar.jpg">
 
@@ -20,24 +20,27 @@
 		</header>
 
 		<main>
-				<div class="left_div">	
-					<div class="contacts">
-						<h2> Contact information </h2>
-						<hr>						
-						<p> 
-							<img src="img/call.png"> 
-							Phone: +375-25-954-81-98 
-						</p>
-						<p> 
-							<img src="img/mail.png">
-							Email: bahdanavaalexandra@gmail.com 
-						</p>					
-						<p> 
-							<img src="img/send.png">
-							Telegram: @ale_bah 
-						</p>
-					</div>
-					<div class="skills">
+				<div class="left-block">	
+					<nav>
+						<h2> Contact information </h2>				
+						<hr>					
+						<ul class="contacts">
+							<li>
+								<img src="img/call.png"> 
+								Phone: +375-25-954-81-98 
+							</li>
+							<li>
+								<img src="img/mail.png">
+								Email: <a href="mailto:bahdanavaalexandra@gmail.com"> bahdanavaalexandra@gmail.com  </a>
+							</li> 
+							<li>
+								<img src="img/send.png">
+								Telegram:<a href="https://t.me/ale_bah"> ale_bah  </a> 
+							</li>
+						</ul>	
+					</nav>
+
+					<section class="skills">
 						<h2> Skills </h2>
 						<hr>
 						<p>
@@ -50,9 +53,9 @@
 							<li> JavaScript Basics </li>
 							<li> C# </li>
 						</ul>
-					</div>
+					</section>
 
-					<div class="education">
+					<section class="education">
 						<h2> Courses and studying </h2>
 						<hr>
 						<ul>
@@ -62,9 +65,9 @@
 								</a>
 							</li>
 						</ul>
-					</div>
+					</section>
 
-					<div class="languages"> 
+					<section class="languages"> 
 						<h2> Languages </h2>
 						<hr>
 						<ol>
@@ -73,10 +76,11 @@
 							<li> German - B1 Intermediate </li>
 							<li> English - А1 Beginner </li>
 						</ol>
-					</div>
+					</section>
 				</div>
-				<div class="right_div">
-					<div class="brief">
+
+				<div class="right-block">
+					<section class="brief">
 						<h2> Briefly About Myself </h2>
 						<hr>
 						<p>
@@ -90,9 +94,9 @@
 						<p>
 							I possess several strengths that help me achieve my goals. I have excellent analytical skills, which allow me to understand complex problems and find effective solutions. Additionally, I have strong communication abilities that enable me to communicate effectively and collaborate with others.
 						</p>
-					</div>
+					</section>
 
-					<div class="code"> 
+					<section class="code"> 
 						<h2> Code example </h2>
 						<hr>
 						<p> Below is a sample code I wrote. This code is written in HTML: </p>
@@ -105,19 +109,19 @@ using System;
 			Console.WriteLine("Привет, мир!");
 		}
 	}
-						</code>
+							</code>
 						</pre>
-					</div>
+					</section>
 				</div>
 		</main>
-	<footer>
-		<br>
-		<p>
-			GitHub:
-			<a class="git_link" href="https://github.com/AlexandraBahdanava"> AlexandraBahdanava</a>
-			| 2023
-		</p>
-		<br>			
-	</footer>
-</body>
+		<footer>
+			<br>
+			<p>
+				GitHub:
+				<a class="git-link" href="https://github.com/AlexandraBahdanava"> AlexandraBahdanava</a>
+				| 2023
+			</p>
+			<br>			
+		</footer>
+	</body>
 </html>
